@@ -1,0 +1,69 @@
+@import  "./Font.css";
+
+.container {
+    display: block;
+    /* justify-content: space-between; */
+    
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+    /* background-color: red; */
+    padding-top: 30px;
+    position: fixed;
+}
+
+.IDK {
+    display: flex;
+    /* background-color: red; */
+}
+
+.coisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.taskOptionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.buttonStyle{
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 20px;
+}
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.resumeButtonContainer{
+    background-color: #FDCA4B;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    height: 60px;
+    width: 150px;
+    margin-left: 15%;
+}
+
+.ImagimeStyle {
+    margin-right: 15%;
+    height: 10%;
+    width: 10%;
+}

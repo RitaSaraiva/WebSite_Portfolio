@@ -1,0 +1,91 @@
+@import  "./Font.css";
+
+.container {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    /* padding: 0 10%; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.TitleTextStyle {
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+}
+
+.SmallTitleTextStyle {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.CarosselContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    height: 380px;
+    margin-top: -55px;
+}
+
+.CarosselContainer::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+  }
+   
+  .CarosselContainer::-webkit-scrollbar-track {
+    background-color: rgba(226, 226, 226, 0.377);
+  }
+   
+  .CarosselContainer::-webkit-scrollbar-thumb {
+    background-color: #FDCA4B;
+    border-radius: 30px;
+  }
+
+.CarosselQuaseContainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    /* padding-right: 30px; */
+}
+
+.SmallTextStyle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    margin: 12px;
+}
+
+.skillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0%;
+}
+
+.LowerskillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px; */
+    margin-top: 0%;
+}
+
+.allSkillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,26 @@
+.container {
+    width: 505px;
+    margin: 0 auto;
+    /* background-color: red; */
+    padding-right: 40px;
+}
+
+.normalTextStyle {
+    /* text-align: center; */
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    /* width: 50%; */
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+.normalTextBoldStyle {
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    width: 50%;
+    margin: 0;
+    padding-top: 100px;
+}

@@ -1,0 +1,22 @@
+/* Intro.module.css */
+/* @import  "./Font.css"; */
+
+.aboutMeContainer {
+    padding-top: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.ExpericeContainer {
+    padding-top: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.taskBarContainer {
+    position: fixed;
+}
+
+.Intro {
+    padding-top: 135px;
+    /* padding-bottom: 20px; */
+}
+

@@ -1,0 +1,47 @@
+/* Intro.module.css */
+@import  "./Font.css";
+
+.container {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 10%;
+    /* margin: 0 auto; */
+}
+
+.normalTextContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normalTextStyle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    width: 85%;
+}
+
+.TitleTextStyle {
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+}
+
+.resumeButtonContainer{
+    background-color: #FDCA4B;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    height: 60px;
+    width: 679px;
+    justify-self: center;
+}
