@@ -8,14 +8,16 @@
     /* padding: 0 10%; */
     margin: 0 auto;
     overflow: hidden;
+    flex-direction: row; /* Horizontal layout */
 }
 
 .TitleTextStyle {
-    text-align: center;
+    /* text-align: center; */
     font-size: 85px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
+    padding-left: 145px;
 }
 
 .SmallTitleTextStyle {

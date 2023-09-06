@@ -1,0 +1,171 @@
+/* Intro.module.css */
+@import  "./Font.css";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 0 10%;
+    position: relative;
+}
+
+.Allcontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: flex-start; /* Align items to the top */
+    padding-bottom: 35px;
+}
+
+.TitleTextStyle {
+    font-size: 85px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+    padding-right: 20px; /* Add spacing between title and text */
+    padding-bottom: 20px;
+}
+
+.TextContainer {
+    margin-left: 0; /* Remove margin */
+    padding-bottom: 20px;
+}
+
+.FeaturedTextStyle {
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+}
+
+.FeaturedTextStyleTitle {
+    font-size: 45px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+}
+
+.FeaturedTextStyleTitleTITLE {
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.FeaturedTextSmallStyleTitle {
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    margin: 0;
+    width: 80%;
+}
+
+.TextInfoContainer {
+    margin-left: 0; /* Remove margin */
+    padding-left: 0; /* Remove padding */
+}
+
+.imageSize {
+    width: 428px;
+    height: 399px;
+    margin-right: 180px;
+}
+
+.ProejectimageSize {
+    width: 320px;
+    height: 178px;
+    margin-right: 150px;
+}
+
+/* ^//////////////////////// */
+
+.swiperInfoContainer {
+    padding-bottom: 50px;
+}
+
+.swiperContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiperTextTitle {
+    font-size: 40px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.swiperTextNormal {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    margin: 0;
+    /* padding-bottom: 5px; */
+    margin-left: 200px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.swiperTextSmall {
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+}
+
+.swiperSmallTextContainerTESTE {
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #FDCA4B;
+    width: 10%;
+    height: 40px;
+    padding: 5px;
+    display: flex; /* Use flexbox to control alignment */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    margin-right: 10px;
+}
+
+.swiperSmallTextContainer {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row; /* Set to row */
+    margin-top: 5px; /* Add spacing between small texts */
+}
+
+.swiperInfoANDImageContainer {
+    display: flex;
+    flex-direction: row; /* Set to row */
+    align-items: center; /* Center elements vertically */
+}

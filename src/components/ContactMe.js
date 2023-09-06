@@ -1,6 +1,7 @@
 import React from 'react';
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import classes from './ContactMe.module.css';
+import RoundCharacter from '../../src/Assets/Image1.png';
 
 const ContactMe = () => {
 
@@ -17,10 +18,12 @@ const ContactMe = () => {
                 lorem nec vehicula consequat, nulla diam lobortis dui, eget porta 
                 lorem nunc ac mi. </p>
             </div>
-            <button className={classes.resumeButtonContainer}>SAY HELLO</button>
+            <div className={classes.ButtonContainer}>
+              <button className={classes.resumeButtonContainer}>SAY HELLO</button>
+            </div>
+            <img src={RoundCharacter} alt="Character whistling" className={classes.imageSize}/>
+            <img src={RoundCharacter} alt="Character whistling" className={classes.SecondimageSize}/>
         </div>
-
-        
     </Fragment>
   );
 };

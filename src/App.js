@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
 import classes from './App.module.css';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Intro from './components/Intro';
 import TaskBar from './components/TaskBar';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import ContactMe from './components/ContactMe';
+import Projects from './components/Projects';
 
 const App = () => {
 
@@ -29,6 +30,10 @@ const App = () => {
 
       <div className={classes.ExpericeContainer}>
         <Experience/>
+      </div>
+
+      <div>
+        <Projects/>
       </div>
 
       <div className={classes.ExpericeContainer}>

@@ -3,11 +3,12 @@
 
 .container {
     /* display: flex; */
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 100%;
     padding: 0 10%;
     /* margin: 0 auto; */
+    position: relative;
 }
 
 .normalTextContainer  {
@@ -43,5 +44,33 @@
     border-color: black;
     height: 60px;
     width: 679px;
-    justify-self: center;
+    /* justify-self: center; */
+}
+
+.ButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonAndImagesContainer{
+    display: flex;
+}
+
+.imageSize {
+    width: 376px;
+    height: 336px;
+    position: absolute;
+    top: 300px;
+    left: 1050px;
+    z-index: -1;
+}
+
+.SecondimageSize {
+    width: 376px;
+    height: 336px;
+    position: absolute;
+    top: 300px;
+    left: 115px;
+    z-index: -1;
 }
