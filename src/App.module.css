@@ -2,12 +2,12 @@
 /* @import  "./Font.css"; */
 
 .aboutMeContainer {
-    padding-top: 50px;
+    padding-top: 60px;
     /* padding-bottom: 20px; */
 }
 
 .ExpericeContainer {
-    padding-top: 50px;
+    padding-top: 90px;
     /* padding-bottom: 50px; */
 }
 
@@ -33,4 +33,6 @@
     left: 1050px;
     margin-left: 1000px;
 }
+
+
 

@@ -70,7 +70,13 @@
 
 /* ^------------------- */
 
-.buttonsContainer {
+.active {
+    border-bottom: 2px solid #000; /* Add an underline */
+  padding-bottom: 5px; /* Adjust the spacing under the active item */
+  border-top: 3px solid yellow; /* Add a yellow line on top (or adjust as needed) */
+  }
+  
+  .buttonsContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,13 +92,46 @@
     font-family: 'Raleway';
     font-weight: bold;
     margin: 20px;
-    cursor: pointer;
-    position: relative; /* Add relative positioning */
+    position: relative; /* Add this */
   }
   
-  .lineContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative; /* Add relative positioning */
+  .buttonStyle::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #FDCA4B;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease; /* Add a smooth transition for the line */
   }
+  
+  .buttonStyle:hover::after {
+    width: 100%; /* Expand the line when hovering */
+  }
+  
+  /* Reset the line for the non-hovered items */
+  .buttonStyle:not(:hover)::after {
+    width: 0;
+  }
+  
+  /* Add a class to the active list item */
+  .buttonStyle.active::after {
+    width: 100%;
+  }
+  
+  .resumeButtonContainer {
+    background-color: #FDCA4B;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    height: 60px;
+    width: 150px;
+    margin-left: 15%;
+  }
+  

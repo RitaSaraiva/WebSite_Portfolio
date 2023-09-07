@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import classes from './App.module.css';
 // import Header from './components/Header';
 import Intro from './components/Intro';
@@ -31,11 +31,11 @@ const App = () => {
           </ParallaxLayer>
 
           <ParallaxLayer offset={3} speed={0.05} factor={3}>
-            <div className={classes.aboutMeContainer}><Projects/></div>
+            <div className={classes.ExpericeContainer}><Projects/></div>
           </ParallaxLayer>
 
           <ParallaxLayer offset={4} speed={0.05} factor={3}>
-            <div className={classes.ExpericeContainer}><ContactMe/></div>
+            <div className={classes.aboutMeContainer}><ContactMe/></div>
           </ParallaxLayer>
 
           <ParallaxLayer
@@ -53,28 +53,9 @@ const App = () => {
             onClickAbout={() => ref.current.scrollTo(1)}
             onClickExperience={() => ref.current.scrollTo(2)}
             onClickProjects={() => ref.current.scrollTo(3)}
-            onClickContact={() => ref.current.scrollTo(4)}/>
+            onClickContact={() => ref.current.scrollTo(4)}
+          />
         </div>
-
-        {/* <div className={classes.Intro}>
-          <Intro />
-        </div>
-
-        <div className={classes.aboutMeContainer}>
-          <AboutMe/>
-        </div>
-
-        <div className={classes.ExpericeContainer}>
-          <Experience/>
-        </div>
-
-        <div>
-          <Projects/>
-        </div>
-
-        <div className={classes.ExpericeContainer}>
-          <ContactMe/> */}
-        {/* </div> */}
       </div>
     </div>
   );
