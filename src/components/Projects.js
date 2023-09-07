@@ -44,7 +44,7 @@ const Projects = () => {
             <Swiper
                 cssMode={true}
                 navigation={true}
-                pagination={true}
+                // pagination={true}
                 mousewheel={true}
                 keyboard={true}
                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}

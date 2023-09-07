@@ -1,4 +1,4 @@
-import React, { Fragment, useRef } from 'react';
+import React, { useRef } from 'react';
 import classes from './App.module.css';
 // import Header from './components/Header';
 import Intro from './components/Intro';
@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import ContactMe from './components/ContactMe';
 import Projects from './components/Projects';
-import RoundCharacter from './Assets/Image1.png';
+import RoundCharacter from './Assets/Image4 1.png';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 const App = () => {
@@ -16,36 +16,45 @@ const App = () => {
 
   return (
     <div>
-      <div>
-          <TaskBar className={classes.taskBarContainer}/>
-      </div>
-    
-      <div>
-        <Parallax pages={6} ref={ref}>
-          <ParallaxLayer offset={0} speed={0.02}>
-            <div className={classes.Intro}><Intro/></div>
+      <div style={{ width: '100%', height: '100%', background: 'BLUE' }}>
+        <Parallax pages={5} ref={ref} >
+          <ParallaxLayer offset={0} speed={0.02} factor={2}>
+            <div className={classes.Intro}><Intro onClick={() => ref.current.scrollTo(1)}/></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={1} speed={0.2}>
-            <div><AboutMe/></div>
+          <ParallaxLayer offset={1} speed={0.05} factor={3}>
+            <div className={classes.aboutMeContainer}><AboutMe/></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2} speed={0.2}>
-            <div><Experience/></div>
+          <ParallaxLayer offset={2} speed={0.05} factor={3}>
+            <div className={classes.aboutMeContainer}><Experience/></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={3} speed={0.2}>
-            <div><Projects/></div>
+          <ParallaxLayer offset={3} speed={0.05} factor={3}>
+            <div className={classes.aboutMeContainer}><Projects/></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={4} speed={0.2}>
-            <div><Experience/></div>
+          <ParallaxLayer offset={4} speed={0.05} factor={3}>
+            <div className={classes.ExpericeContainer}><ContactMe/></div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={5} speed={0.2}>
-            <div><ContactMe/></div>
+          <ParallaxLayer
+            sticky={{ start: 1.55, end: 1.7 }}
+          >
+            <div className={classes.imageContainer}>
+              <img src={RoundCharacter} alt="Character whistling" className={classes.imageSize}/>
+            </div>
           </ParallaxLayer>
         </Parallax>
+
+        <div>
+          <TaskBar className={classes.taskBarContainer} 
+            onClickHome={() => ref.current.scrollTo(0)}
+            onClickAbout={() => ref.current.scrollTo(1)}
+            onClickExperience={() => ref.current.scrollTo(2)}
+            onClickProjects={() => ref.current.scrollTo(3)}
+            onClickContact={() => ref.current.scrollTo(4)}/>
+        </div>
 
         {/* <div className={classes.Intro}>
           <Intro />

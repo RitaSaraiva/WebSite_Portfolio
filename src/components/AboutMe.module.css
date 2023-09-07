@@ -8,6 +8,7 @@
     max-width: 100%;
     padding: 0 10%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .normalTextContainer  {
@@ -18,7 +19,7 @@
 
 .normalTextStyle {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Raleway';
     font-weight: normal;
     width: 85%;
@@ -26,7 +27,7 @@
 
 .TitleTextStyle {
     text-align: center;
-    font-size: 85px;
+    font-size: 75px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
@@ -39,5 +40,5 @@
 }
 
 .image {
-    padding-left: 50px;
+    margin: 20px;
 }

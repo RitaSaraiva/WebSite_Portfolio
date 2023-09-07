@@ -5,7 +5,7 @@ import arrowIcon from '../../src/Assets/🦆 icon _chevron circle down alt_.png'
 import classes from './Intro.module.css';
 import './Font.css';
 
-const Intro = () => {
+const Intro = (props) => {
 
     return (
     <Fragment>
@@ -18,7 +18,7 @@ const Intro = () => {
             <img src={RoundCharacter} alt="Character whistling" className={classes.imageSize}/> 
         </div>
         <div className={classes.arrowIconContainer}>
-            <img src={arrowIcon} alt="arrow Icon" className={classes.arrowIcon}/> 
+            <img src={arrowIcon} alt="arrow Icon" className={classes.arrowIcon} onClick={props.onClick}/> 
         </div>
     </Fragment>
     );

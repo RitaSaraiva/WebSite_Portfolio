@@ -9,11 +9,12 @@
     margin: 0 auto;
     overflow: hidden;
     flex-direction: row; /* Horizontal layout */
+    margin-top: 20px;
 }
 
 .TitleTextStyle {
     /* text-align: center; */
-    font-size: 85px;
+    font-size: 75px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
@@ -37,7 +38,7 @@
     padding-right: 100px;
     justify-content: space-between;
     height: 365px;
-    margin-top: -55px;
+    margin-top: -65px;
 }
 
 .CarosselContainer::-webkit-scrollbar {
