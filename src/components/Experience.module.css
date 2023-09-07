@@ -22,11 +22,11 @@
 
 .SmallTitleTextStyle {
     text-align: center;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 45px;
 }
 
 .CarosselContainer {
@@ -36,7 +36,7 @@
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
-    height: 380px;
+    height: 365px;
     margin-top: -55px;
 }
 
@@ -63,7 +63,7 @@
 
 .SmallTextStyle {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Raleway';
     font-weight: normal;
     margin: 12px;
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 15px;
     margin: 0%;
 }
 

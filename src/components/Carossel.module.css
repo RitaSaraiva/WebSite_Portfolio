@@ -1,5 +1,5 @@
 .container {
-    width: 505px;
+    width: 490px;
     margin: 0 auto;
     /* background-color: red; */
     padding-right: 40px;
@@ -7,7 +7,7 @@
 
 .normalTextStyle {
     /* text-align: center; */
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Raleway';
     font-weight: normal;
     /* width: 50%; */

@@ -16,7 +16,7 @@
     flex-direction: row;
     margin: 0;
     align-items: flex-start; /* Align items to the top */
-    padding-bottom: 35px;
+    padding-bottom: 45px;
 }
 
 .TitleTextStyle {
@@ -41,14 +41,14 @@
 }
 
 .FeaturedTextStyleTitle {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
 }
 
 .FeaturedTextStyleTitleTITLE {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
@@ -56,7 +56,7 @@
 }
 
 .FeaturedTextSmallStyleTitle {
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Raleway';
     font-weight: normal;
     margin: 0;
@@ -69,14 +69,14 @@
 }
 
 .imageSize {
-    width: 428px;
-    height: 399px;
+    width: 378px;
+    height: 352px;
     margin-right: 180px;
 }
 
 .ProejectimageSize {
-    width: 320px;
-    height: 178px;
+    width: 256px;
+    height: 142px;
     margin-right: 150px;
 }
 
@@ -89,7 +89,7 @@
 .swiperContainer {
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 55px;
 }
 
 
@@ -117,22 +117,22 @@
   }
 
 .swiperTextTitle {
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Raleway';
     font-weight: bolder;
     margin: 0;
     padding-bottom: 5px;
     margin-left: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .swiperTextNormal {
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Raleway';
     font-weight: normal;
     margin: 0;
     /* padding-bottom: 5px; */
     margin-left: 200px;
-    width: 50%;
+    width: 57%;
     margin-bottom: 10px;
 }
 

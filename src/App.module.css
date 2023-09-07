@@ -2,13 +2,13 @@
 /* @import  "./Font.css"; */
 
 .aboutMeContainer {
-    padding-top: 100px;
+    padding-top: 50px;
     /* padding-bottom: 20px; */
 }
 
 .ExpericeContainer {
-    padding-top: 35px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .taskBarContainer {
@@ -17,6 +17,5 @@
 
 .Intro {
     padding-top: 135px;
-    /* padding-bottom: 20px; */
 }
 
