@@ -1,33 +1,33 @@
-import React, { useState } from 'react';
-import classes from './TaskBar.module.css';
-import Logo from '../../src/Assets/Logo.png';
+import React, { useState } from "react";
+import classes from "./TaskBar.module.css";
+import Logo from "../../src/Assets/Logo.png";
 
 const TaskBar = (props) => {
-  const [activeItem, setActiveItem] = useState('Home');
+  const [activeItem, setActiveItem] = useState("Home");
 
   const openPdf = () => {
-    const pdfUrl = process.env.PUBLIC_URL + '/CV_RitaSaraiva.pdf';
-    window.open(pdfUrl, '_blank');
+    const pdfUrl = process.env.PUBLIC_URL + "/CV_RitaSaraiva.pdf";
+    window.open(pdfUrl, "_blank");
   };
 
   const handleItemClick = (item) => {
-    setActiveItem(item);
-    // Call the appropriate click handler (props.onClickHome, props.onClickAbout, etc.) based on the clicked item.
-    props.onPageChange(item);
+    // setActiveItem(item);
+    // // Call the appropriate click handler (props.onClickHome, props.onClickAbout, etc.) based on the clicked item.
+    // props.onPageChange(item);
     switch (item) {
-      case 'Home':
+      case "Home":
         props.onClickHome();
         break;
-      case 'About':
+      case "About":
         props.onClickAbout();
         break;
-      case 'Experience':
+      case "Experience":
         props.onClickExperience();
         break;
-      case 'Projects':
+      case "Projects":
         props.onClickProjects();
         break;
-      case 'Contact':
+      case "Contact":
         props.onClickContact();
         break;
       default:
@@ -44,41 +44,41 @@ const TaskBar = (props) => {
             <ul className={classes.buttonsContainer}>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === 'Home' ? 'active' : ''
+                  activeItem === "Home" ? "active" : ""
                 }`}
-                onClick={() => handleItemClick('Home')}
+                onClick={() => handleItemClick("Home")}
               >
                 Home
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === 'About' ? 'active' : ''
+                  activeItem === "About" ? "active" : ""
                 }`}
-                onClick={() => handleItemClick('About')}
+                onClick={() => handleItemClick("About")}
               >
                 About
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === 'Experience' ? 'active' : ''
+                  activeItem === "Experience" ? "active" : ""
                 }`}
-                onClick={() => handleItemClick('Experience')}
+                onClick={() => handleItemClick("Experience")}
               >
                 Experience
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === 'Projects' ? 'active' : ''
+                  activeItem === "Projects" ? "active" : ""
                 }`}
-                onClick={() => handleItemClick('Projects')}
+                onClick={() => handleItemClick("Projects")}
               >
                 Projects
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === 'Contact' ? 'active' : ''
+                  activeItem === "Contact" ? "active" : ""
                 }`}
-                onClick={() => handleItemClick('Contact')}
+                onClick={() => handleItemClick("Contact")}
               >
                 Contact
               </li>
