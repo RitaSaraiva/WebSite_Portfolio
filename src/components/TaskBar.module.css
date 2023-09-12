@@ -69,12 +69,6 @@
 }
 
 /* ^------------------- */
-
-.active {
-    border-bottom: 2px solid #000; /* Add an underline */
-  padding-bottom: 5px; /* Adjust the spacing under the active item */
-  border-top: 3px solid yellow; /* Add a yellow line on top (or adjust as needed) */
-  }
   
   .buttonsContainer {
     display: flex;
@@ -86,6 +80,7 @@
   }
   
   .buttonStyle {
+    cursor: pointer;
     list-style: none;
     text-align: center;
     font-size: 24px;
@@ -101,7 +96,7 @@
     width: 0;
     height: 2px;
     background-color: #FDCA4B;
-    bottom: 0;
+    bottom: -4px;
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.3s ease; /* Add a smooth transition for the line */
@@ -117,8 +112,18 @@
   }
   
   /* Add a class to the active list item */
-  .buttonStyle.active::after {
-    width: 100%;
+ 
+
+  .buttonStyle.active::before {
+      display: block;
+      content: ' ';
+      background-color: #000;
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    
   }
   
   .resumeButtonContainer {

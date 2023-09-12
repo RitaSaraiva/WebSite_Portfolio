@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import classes from './App.module.css';
 // import Header from './components/Header';
 import Intro from './components/Intro';
@@ -25,6 +25,7 @@ const App = () => {
           <ParallaxLayer offset={1} speed={0.05} factor={3}>
             <div className={classes.aboutMeContainer}><AboutMe/></div>
           </ParallaxLayer>
+          
 
           <ParallaxLayer offset={2} speed={0.05} factor={3}>
             <div className={classes.aboutMeContainer}><Experience/></div>
@@ -40,11 +41,14 @@ const App = () => {
 
           <ParallaxLayer
             sticky={{ start: 1.55, end: 1.7 }}
+            setHeight={336}
+            style={{height: 336, zIndex: 1}}
           >
             <div className={classes.imageContainer}>
               <img src={RoundCharacter} alt="Character whistling" className={classes.imageSize}/>
             </div>
           </ParallaxLayer>
+
         </Parallax>
 
         <div>

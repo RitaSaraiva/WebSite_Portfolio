@@ -1,0 +1,12 @@
+@import  "../Font.css";
+
+
+.swiperInfoContainer {
+    padding-bottom: 50px;
+}
+
+.swiperContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}

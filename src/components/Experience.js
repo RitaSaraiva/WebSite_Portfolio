@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import classes from './Experience.module.css';
 import Carossel from './Carossel';
 // import image from '../../src/Assets/Rectangle 1.png';

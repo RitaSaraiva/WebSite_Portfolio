@@ -11,7 +11,7 @@ const TaskBar = (props) => {
   };
 
   const handleItemClick = (item) => {
-    // setActiveItem(item);
+    setActiveItem(item);
     // // Call the appropriate click handler (props.onClickHome, props.onClickAbout, etc.) based on the clicked item.
     // props.onPageChange(item);
     switch (item) {
@@ -44,7 +44,7 @@ const TaskBar = (props) => {
             <ul className={classes.buttonsContainer}>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === "Home" ? "active" : ""
+                  activeItem === "Home" ? classes.active : ""
                 }`}
                 onClick={() => handleItemClick("Home")}
               >
@@ -52,7 +52,7 @@ const TaskBar = (props) => {
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === "About" ? "active" : ""
+                  activeItem === "About" ? classes.active : ""
                 }`}
                 onClick={() => handleItemClick("About")}
               >
@@ -60,7 +60,7 @@ const TaskBar = (props) => {
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === "Experience" ? "active" : ""
+                  activeItem === "Experience" ? classes.active : ""
                 }`}
                 onClick={() => handleItemClick("Experience")}
               >
@@ -68,7 +68,7 @@ const TaskBar = (props) => {
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === "Projects" ? "active" : ""
+                  activeItem === "Projects" ? classes.active : ""
                 }`}
                 onClick={() => handleItemClick("Projects")}
               >
@@ -76,7 +76,7 @@ const TaskBar = (props) => {
               </li>
               <li
                 className={`${classes.buttonStyle} ${
-                  activeItem === "Contact" ? "active" : ""
+                  activeItem === "Contact" ? classes.active : ""
                 }`}
                 onClick={() => handleItemClick("Contact")}
               >
