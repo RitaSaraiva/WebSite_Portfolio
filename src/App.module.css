@@ -2,37 +2,34 @@
 /* @import  "./Font.css"; */
 
 .aboutMeContainer {
-    padding-top: 60px;
-    /* padding-bottom: 20px; */
+  padding-top: 10%;
+  /* padding-bottom: 20px; */
 }
 
 .ExpericeContainer {
-    padding-top: 90px;
-    /* padding-bottom: 50px; */
+  padding-top: 10%;
+  /* padding-bottom: 50px; */
 }
 
 .taskBarContainer {
-    position: fixed;
+  position: fixed;
 }
 
 .Intro {
-    padding-top: 135px;
+  margin-top: 10%;
 }
 
 .imageSize {
-    width: 376px;
-    height: 336px;
-    left: 1050px;
-    /* position: absolute;
+  width: 488px;
+  height: 616px;
+  left: 1050px;
+  /* position: absolute;
     top: 300px;
     left: 1050px;
     z-index: -1; */
 }
 
 .imageContainer {
-    left: 1050px;
-    margin-left: 1000px;
+  left: 1050px;
+  margin-left: 1150px;
 }
-
-
-

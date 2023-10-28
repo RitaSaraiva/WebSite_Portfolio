@@ -6,7 +6,7 @@ const TaskBar = (props) => {
   const [activeItem, setActiveItem] = useState("Home");
 
   const openPdf = () => {
-    const pdfUrl = process.env.PUBLIC_URL + "/CV_RitaSaraiva.pdf";
+    const pdfUrl = process.env.PUBLIC_URL + "/CC_RitaSaraiva";
     window.open(pdfUrl, "_blank");
   };
 

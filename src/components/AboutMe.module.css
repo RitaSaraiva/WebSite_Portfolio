@@ -1,44 +1,44 @@
 /* Intro.module.css */
-@import  "./Font.css";
+@import "./Font.css";
 
 .container {
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    padding: 0 10%;
-    margin: 0 auto;
-    margin-top: 20px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 0 10%;
+  margin: 0 auto;
+  /* margin-top: 20px; */
 }
 
-.normalTextContainer  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.normalTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .normalTextStyle {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Raleway';
-    font-weight: normal;
-    width: 85%;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Raleway";
+  font-weight: normal;
+  width: 85%;
 }
 
 .TitleTextStyle {
-    text-align: center;
-    font-size: 75px;
-    font-family: 'Raleway';
-    font-weight: bolder;
-    margin: 0;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0;
 }
 
 .imageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image {
-    margin: 20px;
+  margin: 20px;
 }

@@ -1,39 +1,52 @@
-import React from 'react';
+import React from "react";
 import { Fragment } from "react";
-import classes from './ContactMe.module.css';
-import RoundCharacter from '../../src/Assets/Image1.png';
+import classes from "./ContactMe.module.css";
+import CharacterLining from "../../src/Assets/estrelas1.png";
+import Stars from "../../src/Assets/LiningStar.png";
 
 const ContactMe = () => {
-  const handleEmailClick = () => {
-    const email = 'recipient@example.com'; // Replace with the recipient's email address
-    const subject = 'Hello'; // Optional: Set the email subject
-    const body = 'Hi, I wanted to get in touch with you.'; // Optional: Set the email body
+  // const handleEmailClick = () => {
+  //   const email = "recipient@example.com"; // Replace with the recipient's email address
+  //   const subject = "Hello"; // Optional: Set the email subject
+  //   const body = "Hi, I wanted to get in touch with you."; // Optional: Set the email body
 
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+  //   const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+  //     subject
+  //   )}&body=${encodeURIComponent(body)}`;
 
-    window.location.href = mailtoLink;
+  //   window.location.href = mailtoLink;
+  // };
+
+  const openLink = () => {
+    const url = "https://linktr.ee/RitzSaraiva"; // Replace with the URL you want to open
+    window.open(url, "_blank");
   };
+
   return (
     <Fragment>
-        <div className={classes.container}>
-          <p className={classes.TitleTextStyle}>Contact me</p>
+      <div className={classes.container}>
+        <p className={classes.TitleTextStyle}>Contact me</p>
 
-            <div className={classes.normalTextContainer}>
-                <p className={classes.normalTextStyle}>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. Donec convallis tellus eget magna 
-                feugiat scelerisque. Aliquam ligula turpis, gravida in lacus vitae, 
-                tempus dictum mauris. Duis id porttitor ante. Quisque mollis, 
-                lorem nec vehicula consequat, nulla diam lobortis dui, eget porta 
-                lorem nunc ac mi. </p>
-            </div>
-            <div className={classes.ButtonContainer}>
-              <button className={classes.resumeButtonContainer} onClick={handleEmailClick}>SAY HELLO</button>
-            </div>
-            <img src={RoundCharacter} alt="Character whistling" className={classes.imageSize}/>
-            <img src={RoundCharacter} alt="Character whistling" className={classes.SecondimageSize}/>
+        <div className={classes.normalTextContainer}>
+          <p className={classes.normalTextStyle}>
+            Thank you for visiting my portfolio! I'm excited to connect with
+            you. Whether you're interested in collaborating on a project, have
+            questions about my work, or just want to say hello, I'm always eager
+            to hear from you.{" "}
+          </p>
         </div>
+        <div className={classes.ButtonContainer}>
+          <button className={classes.resumeButtonContainer} onClick={openLink}>
+            SAY HELLO
+          </button>
+        </div>
+        <img src={Stars} alt="Stars" className={classes.imageSize} />
+        <img
+          src={CharacterLining}
+          alt="Character Lining"
+          className={classes.SecondimageSize}
+        />
+      </div>
     </Fragment>
   );
 };
