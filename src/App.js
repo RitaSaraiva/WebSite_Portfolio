@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import classes from "./App.module.css";
 // import Header from './components/Header';
 import Intro from "./components/Intro";
@@ -12,12 +12,18 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const App = () => {
   const ref = useRef();
+  const ref2 = useRef();
+
+  const height = window.innerHeight
+  useEffect(()=> {
+    ref2?.current?.setHeight(height - (0.1 * height))
+  }, [height])
 
   return (
     <div>
-      <div style={{ width: "100%", height: "100%", background: "BLUE" }}>
+      <div style={{ width: "100%", height: "100vh", background: "white" }}>
         <Parallax pages={5} ref={ref}>
-          <ParallaxLayer offset={0} speed={0.02} factor={2}>
+          <ParallaxLayer offset={0} speed={0.02} factor={2} ref={ref2}>
             <div className={classes.Intro}>
               <Intro onClick={() => ref.current.scrollTo(1)} />
             </div>
