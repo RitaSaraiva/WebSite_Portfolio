@@ -1,81 +1,77 @@
 /* Intro.module.css */
-@import  "./Font.css";
+@import "./Font.css";
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 100%;
-    padding: 0 10%;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+  padding: 0 10%;
+  position: relative;
 }
 
 .Allcontainer {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    align-items: flex-start; /* Align items to the top */
-    padding-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: flex-start; /* Align items to the top */
+  padding-bottom: 45px;
 }
 
 .TitleTextStyle {
-    font-size: 75px;
-    font-family: 'Raleway';
-    font-weight: bolder;
-    margin: 0;
-    padding-right: 20px; /* Add spacing between title and text */
-    padding-bottom: 20px;
+  font-size: 75px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0;
+  padding-right: 20px; /* Add spacing between title and text */
+  padding-bottom: 20px;
 }
 
 .TextContainer {
-    margin-left: 0; /* Remove margin */
-    padding-bottom: 20px;
+  margin-left: 0; /* Remove margin */
+  padding-bottom: 20px;
 }
 
 .FeaturedTextStyle {
-    font-size: 35px;
-    font-family: 'Raleway';
-    font-weight: bolder;
-    margin: 0;
+  font-size: 35px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0;
 }
 
 .FeaturedTextStyleTitle {
-    font-size: 40px;
-    font-family: 'Raleway';
-    font-weight: bolder;
-    margin: 0;
+  font-size: 40px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0;
 }
 
 .FeaturedTextStyleTitleTITLE {
-    font-size: 30px;
-    font-family: 'Raleway';
-    font-weight: bolder;
-    margin: 0;
-    padding-bottom: 5px;
+  font-size: 30px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 .FeaturedTextSmallStyleTitle {
-    font-size: 23px;
-    font-family: 'Raleway';
-    font-weight: normal;
-    margin: 0;
-    width: 80%;
+  font-size: 23px;
+  font-family: "Raleway";
+  font-weight: normal;
+  margin: 0;
+  width: 80%;
 }
 
 .TextInfoContainer {
-    margin-left: 0; /* Remove margin */
-    padding-left: 0; /* Remove padding */
+  margin-left: 0; /* Remove margin */
+  padding-left: 0; /* Remove padding */
 }
 
 .imageSize {
-    width: 378px;
-    height: 352px;
-    margin-right: 180px;
+  width: 415px;
+  height: 369px;
+  margin-right: 180px;
 }
 
-
-
 /* ^//////////////////////// */
-
-

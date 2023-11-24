@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import classes from "./Projects.module.css";
 import Phones from "../../src/Assets/Image5 1.png";
+import SibsAppIMG from "../../src/Assets/Sibsapp.png";
 import Swipper from "./UI/Swipper";
 
 const Projects = () => {
@@ -17,20 +18,27 @@ const Projects = () => {
                   Featured Project
                 </p>
                 <p className={classes.FeaturedTextStyleTitle}>
-                  SIBS APP Retalhistas
+                  SIBS Backoffice App
                 </p>
               </div>
               <div className={classes.TextInfoContainer}>
                 <p className={classes.FeaturedTextSmallStyleTitle}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  convallis tellus eget magna feugiat scelerisque. Aliquam
-                  ligula turpis, gravida in lacus vitae, tempus dictum mauris.
+                  The SIBS Backoffice, after a secure login, allows users to use
+                  a built-in scanner that simplifies the process of capturing QR
+                  and Bar codes, providing instant access to detailed purchase
+                  information. The app offers a straightforward approach to
+                  confirming purchases, viewing already confirmed transactions
+                  and returns.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <img src={Phones} alt="Project Preview" className={classes.imageSize} />
+        <img
+          src={SibsAppIMG}
+          alt="Project Preview"
+          className={classes.imageSize}
+        />
       </div>
 
       <Swipper />
