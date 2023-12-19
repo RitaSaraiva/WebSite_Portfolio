@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67e2a925.css",
+    "main.js": "/static/js/main.2e492bad.js",
+    "static/media/Sibsapp.png": "/static/media/Sibsapp.214a0649772ad7344d66.png",
+    "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
+    "static/media/SmilingStar.png": "/static/media/SmilingStar.a34a69ea9a4690c492fe.png",
+    "static/media/FallingStar.png": "/static/media/FallingStar.45de0f7d6a6f237413ad.png",
+    "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.18960343b3da49bfd353.ttf",
+    "static/media/Raleway-Black.ttf": "/static/media/Raleway-Black.6d75f2b870b0a5df344d.ttf",
+    "static/media/Rectangle3Image.png": "/static/media/Rectangle3Image.7185d7acf173d5e21522.png",
+    "static/media/LiningStar.png": "/static/media/LiningStar.e17afcd94e6883231d2b.png",
+    "static/media/Image5 1.png": "/static/media/Image5 1.57a274f05b4762e0e825.png",
+    "static/media/Rectangle 1Image.png": "/static/media/Rectangle 1Image.4e34a6f015186f29edf5.png",
+    "static/media/Rectangle2Image.png": "/static/media/Rectangle2Image.0592ddcc159cc3c54fde.png",
+    "static/media/BlueTicketApp.png": "/static/media/BlueTicketApp.f334d7c69220bf807df9.png",
+    "static/media/ReciclaComOCascas.png": "/static/media/ReciclaComOCascas.a8679c99672c22b91421.png",
+    "static/media/Homepage seen on computer screen.png": "/static/media/Homepage seen on computer screen.5fe36f5ac18d936db41a.png",
+    "static/media/estrelas1.png": "/static/media/estrelas1.96b2f434358323163576.png",
+    "static/media/Logo.png": "/static/media/Logo.53840716e2f557ce02c4.png",
+    "index.html": "/index.html",
+    "main.67e2a925.css.map": "/static/css/main.67e2a925.css.map",
+    "main.2e492bad.js.map": "/static/js/main.2e492bad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67e2a925.css",
+    "static/js/main.2e492bad.js"
+  ]
+}

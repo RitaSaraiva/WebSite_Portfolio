@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import React from "react";
 import SmilingStar from "../../src/Assets/SmilingStar.png";
-import arrowIcon from "../../src/Assets/🦆 icon _chevron circle down alt_.png";
+import arrowIcon from "../../src/Assets/icon_chevroncircledownalt_.png";
 import classes from "./Intro.module.css";
 import "./Font.css";
 
